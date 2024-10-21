@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agri_Info</title>
+
+          <!--External CSS link-->
+          <link rel="stylesheet" href="css/bootstrap.min.css">
+          <link rel="stylesheet" href="Contact.css">
+
+              <!--FONT AWESOME-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap" rel="stylesheet">
+
+ <!-- favicon-->
+ <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+ 
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <img style="margin-left: 1px;" height="50px" width="110px" src="img/logo.png" alt="">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="Home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Farming Guides.html">Farming Guides</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Crop Details.html">Crop Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Pest Control.html">Pest Control</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Contact.html">Contact</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--navbar end-->
+
+<!--Contact Section-->
+  <section class="contact-section">
+    <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="attachment">Attachment (optional)</label>
+                <input type="file" id="attachment" name="attachment">
+                <p class="file-info">You can upload images or documents related to your inquiry (max file size: 5MB)</p>
+            </div>
+            <button type="submit" class="submit-btn">Submit Inquiry</button>
+        </form>
+    </div>
+    <div class="contact-info">
+        <div class="direct-contact">
+            <h2>Direct Contact</h2>
+            <div class="info-card">
+                <h3>Agricultural Advisory Service</h3>
+                <p>Get expert advice from our team of agricultural specialists.</p>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <span>+1 (123) 456-7890</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <span>advisory@agrihelp.com</span>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        <span>Mon-Fri: 9:00 AM - 5:00 PM</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="extension-services">
+            <h2>Extension Services</h2>
+            <div class="info-card">
+                <h3>Local Extension Office</h3>
+                <p>Connect with your local agricultural extension service for region-specific advice.</p>
+                <button class="find-office-btn">Find Your Local Office</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+      <!--Footer-->
+      <footer>
+        <p>&copy; 2024 Agri Info.Naiyan Noor All rights reserved</p>
+    </footer>
+    
+  
+<!--Bootstrap JS CDN-->
+
+<script src="js/bootstrap.min.js"></script>
+
+<!--script-->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+background-color: none;
+font-family: Arial, sans-serif;
+
+}
+
+/*Navbar*/
+.navbar{
+    background-color:#ffffff;
+    margin-bottom: 0%;
+    border-top: 2px solid rgba(142, 142, 142, .5);
+    }
+    
+    .nav-item .nav-link{
+    color: rgb(4, 96, 47);
+    }
+    
+    .nav-item .nav-link:hover{
+    background-color: rgba(195, 232, 167, 0.5);
+    display: inline-block;
+    width: auto;
+    }
+
+/*Featured Guides*/
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.featured-guides {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+}
+.guide-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.guide-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.guide-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.guide-card-content {
+    padding: 15px;
+}
+.guide-card h4 {
+    margin-top: 0;
+}
+.guide-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.h1{
+    text-align: center;
+    color: #2e7d32;
+}
+/*Featured Guides End */
+
+.step-by-step {
+    margin-top: 40px;
+}
+.step-by-step h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+.step {
+    margin-bottom: 20px;
+}
+.step h3 {
+    color: #4CAF50;
+}
+.featured-guides {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 8px;
+}
+.guide-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.guide-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.guide-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.guide-card-content {
+    padding: 15px;
+}
+.guide-card h3 {
+    margin-top: 0;
+}
+.guide-card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.step-by-step {
+    margin-top: 40px;
+}
+.step-by-step h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 10px;
+}
+.step {
+    margin-bottom: 20px;
+}
+.step h3 {
+    color: #4CAF50;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #4a7c59;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
